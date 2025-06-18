@@ -4,102 +4,74 @@
 
 ### EDA is a culturally-focused dating site designed to help Ethiopians find meaningful connections leading to real marriage.
 
+---
+
+## 🎓 Project Overview
+
+EDA (Ethiopian Dating Application) is a graduation project that aims to revolutionize online dating for Ethiopians by prioritizing cultural values, traditions, and real-life connections. Unlike generic dating platforms, EDA is built to foster meaningful relationships that respect Ethiopian heritage and are more likely to lead to marriage.
+
+---
+
 ## 🎯 Project Goals
 
-The main goal of EDA is to create a dating platform that prioritizes Ethiopian cultural values and traditions in the matching process. Unlike generic dating apps, EDA uses cultural compatibility and event-based matching to help users find partners who share similar backgrounds, beliefs, and life goals.
+- **Promote Ethiopian Culture:**  
+  EDA is designed to help users find partners who share similar cultural backgrounds, languages, and values, making it easier to build lasting relationships.
+
+- **Facilitate Real-Life Connections:**  
+  By integrating event-based matching, EDA encourages users to meet at Ethiopian community events, festivals, and gatherings.
+
+- **Ensure User Safety and Authenticity:**  
+  Features like email verification, profile completeness checks, and reporting/blocking help maintain a safe and genuine community.
+
+---
+
+## 🌟 Key Features
 
 - **Cultural Value-Based Matching:**  
-  Users provide information about their cultural background, values, and preferences. The matching algorithm prioritizes compatibility based on Ethiopian traditions, languages, and family values, ensuring that matches are more likely to lead to lasting relationships and marriage.
+  Users provide detailed information about their ethnicity, language, religion, and family values. The matching algorithm prioritizes compatibility based on these factors, ensuring culturally aligned matches.
 
 - **Event-Based Matching:**  
-  EDA features community and cultural events (such as holidays, festivals, and gatherings) as part of the matching process. Users can connect based on shared interests in specific events, making it easier to meet like-minded individuals in real-life settings.
+  Users can connect based on shared interests in Ethiopian holidays, festivals, and community events, making it easier to meet like-minded individuals both online and offline.
 
 - **Real-Time Experience:**  
-  The site works in real time, so updates and interactions happen instantly without needing to refresh the page.
+  Instant messaging, notifications, and online status indicators provide a seamless and interactive user experience.
 
-- **Scalable & Modern:**  
-  Built using Node.js, Express, React, Redux, and PostgreSQL, with Docker for easy setup, EDA is designed to support a large user base and provide a seamless experience.
+- **Comprehensive Profiles:**  
+  Users can upload multiple photos, specify interests, and complete detailed profiles to improve match quality.
 
-## 📚 Technologies Used
+- **Advanced Search & Filtering:**  
+  Search for users based on location, interests, cultural background, and more.
 
-| Node.js | HTML | React | Redux | PostgreSQL |
-|---------|------|-------|-------|------------|
-| Express | CSS  | JavaScript | Axios | Material UI |
+- **Safety & Privacy:**  
+  Block and report users, control profile visibility, and receive notifications for all important activities.
 
-## 📝 Features
+---
 
-- User registration and login with email verification
-- Profile editing and photo uploads
-- Search and filter for other users
-- Like, visit, and match functionality
-- Real-time chat and notifications (Socket.IO)
-- Online status indicators
-- Fame rating system
-- Advanced search with filtering and sorting
-- Block and report users
+## 🛠️ Technologies Used
 
-## ⚙️ Installation
+| Node.js | Express | React | Redux | PostgreSQL | Socket.IO | Material UI |
+|---------|---------|-------|-------|------------|-----------|-------------|
 
-**Prerequisites:**  
-- [Docker](https://www.docker.com/) installed on your machine
-
-**Steps:**
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Birhanachalew/Utopia_Dating_Application.git
-   ```
-2. Create a `.env` file in the root directory:
-   ```
-   EMAIL_ADDRESS = <your email address>
-   EMAIL_PASSWORD = <your email password>
-   ```
-3. Build and run the project:
-   ```bash
-   docker-compose up --build
-   ```
-4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+---
 
 ## 🖥️ How It Works
 
-- **Redux Store** manages user state and notifications.
-- **Socket.IO** enables real-time chat and instant notifications.
-- **React Router** handles navigation.
-- **Material UI** provides a modern interface.
+- **Registration & Verification:**  
+  Users sign up with email verification to ensure authenticity.
 
-### Registration & Sign-In
+- **Profile Completion:**  
+  Users fill out detailed profiles, including cultural background and event interests.
 
-- Users register with email verification.
-- Backend validates all input and stores encrypted passwords.
-- Verification links are sent via email.
+- **Matching Algorithm:**  
+  The system suggests matches based on cultural compatibility and event participation.
 
-### User Profile
+- **Real-Time Chat & Notifications:**  
+  Matched users can chat instantly and receive notifications for likes, visits, matches, and messages.
 
-- Users complete their profile, including geolocation and tags.
-- Upload up to 5 photos.
-- Fame rating is calculated based on profile completeness, likes, matches, and tags.
+- **Event Integration:**  
+  Users can browse and join Ethiopian community events, and connect with others attending the same events.
 
-### Browsing & Search
-
-- Browse recommended profiles filtered by preferences and distance.
-- Advanced search with pagination, sorting, and filtering.
-- Block users to hide their profiles.
-
-### Profile Viewing
-
-- View other users’ profiles (excluding sensitive info).
-- Online status is updated in real time.
-- Report suspicious accounts.
-
-### Chat
-
-- Matched users can chat in real time.
-- Messages are stored and retrieved per connection.
-- Notifications for new messages and events.
-
-### Notifications
-
-- Receive notifications for likes, visits, messages, matches, and unlikes.
-- Notifications are real-time and stored in the database.
+---
 
 ## 🌍 How Cultural and Event-Based Matching Works
 
@@ -110,4 +82,29 @@ EDA places Ethiopian culture at the heart of its matching process. When users re
 ### Event-Based Matching
 
 Beyond profiles, EDA integrates Ethiopian community and cultural events—such as holidays, festivals, and gatherings—into the matching process. Users can express interest in specific events, and the platform helps connect people who plan to attend the same events or share enthusiasm for Ethiopian traditions. This makes it easier to meet like-minded individuals both online and in real-life settings.
+
+---
+
+## 👤 Team
+
+- **Birhan Aschalew**
+- **Firmint Megersa**
+- **Rahel Solomon**
+- **Yosef G/Eyesus**
+
+Department of Software Engineering  
+Addis Ababa University  
+2025
+
+---
+
+## 📢 Acknowledgements
+
+- Ethiopian community members who inspired the project vision
+- Academic advisors and mentors
+- Open-source contributors and the developer community
+
+---
+
+*This project was developed as a final graduation project to promote meaningful, culturally-rooted relationships within the Ethiopian community.*
 
