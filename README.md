@@ -88,13 +88,6 @@ Beyond profiles, EDA integrates Ethiopian community and cultural events—such a
 ## 👤 Team
 
 - **Birhan Aschalew**
-- **Firmint Megersa**
-- **Rahel Solomon**
-- **Yosef G/Eyesus**
-
-Department of Software Engineering  
-Addis Ababa University  
-2025
 
 ---
 
